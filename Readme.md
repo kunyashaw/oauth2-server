@@ -1,23 +1,31 @@
-DCOS-Auth is an OAuth2.0 service provided for DCOS which is developed by React and Flux.
-
 ###  Getting Started
 #### Downloading
 Input this commmand in your terminal
 ```
-git clone git@github.com:RobottDog/DCOS-Auth.git
+克隆本分支到本地：
+git clone https://github.com/kunyashaw/oauth2-server.git
 ```
 #### Installing
 ```
-cd DCOS-Auth
+进入本地目录，安装依赖
 npm install
 ```
 #### Using it
 To initialize the datebase:
 ```
+初始化数据库
 npm run seed
 ```
-Then
+
+
 ```
+将react编写的html对应的jsx文件编译为js
+npm run build
+```
+
+
+```
+启动开发服务器
 npm run start
 ```
 
