@@ -25,9 +25,25 @@ npm run build
 
 
 ```
-启动开发服务器
+启动开发服务器(也就是授权服务器)
 npm run start
 ```
+
+
+
+```
+测似服务器地址:https://github.com/kunyashaw/oauth2-client-demo
+1、clone到本地
+2、npm install 
+3、node app.js
+```
+
+```
+一切就绪后，在浏览器访问：
+http://localhost:3000/?client_id=dc-njuics-cn&response_type=code&redirect_uri=http://localhost:4200
+```
+
+
 
 ### How it works
 #### Configuration
