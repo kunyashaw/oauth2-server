@@ -18,6 +18,7 @@ npm run seed
 ```
 
 
+
 ```
 将react编写的html对应的jsx文件编译为js
 npm run build
